@@ -1,0 +1,19 @@
+@import "colors";
+@import "sizes";
+
+.button-default {
+    padding: 20px;
+    border-radius: 6px;
+    border: 3px solid $color-medium-blue;
+    font-weight: bold;
+    color: $color-medium-blue;
+    font-size: 18px;
+    background: $color-light;
+    cursor: pointer;
+    outline: 0;
+
+    &:hover {
+        border-color: $color-dark-blue;
+        color: $color-dark-blue;
+    }
+}

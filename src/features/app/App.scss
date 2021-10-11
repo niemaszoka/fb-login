@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.App {
+  max-width: 800px;
+  flex: 1;
+  position: relative;
+  text-align: center;
+  color: $color-dark-black;
+  background-color: $color-light;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid $color-accent;
+  border-radius: $border-radius_default;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+
+  .content {
+    padding: 20px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+}

@@ -1,0 +1,20 @@
+@import "./../../styles/variables";
+
+.accounts {
+    border: 3px solid $color-medium-blue;
+    border-radius: $border-radius_default;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+
+    &__header {
+        background: $color-medium-blue;
+        padding: 20px;
+        font-weight: bold;
+    }
+
+    &__list {
+        overflow: auto;
+    }
+}
